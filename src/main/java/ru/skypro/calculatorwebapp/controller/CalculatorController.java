@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ru.skypro.calculatorwebapp.service.CalculatorService;
 
 @RestController
-@RequestMapping("/calculater")
+@RequestMapping("/calculator")
 public class CalculatorController {
     private final CalculatorService service;
 
