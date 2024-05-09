@@ -31,6 +31,7 @@ public class CalculatorController {
     public String minus(@RequestParam int num1, @RequestParam int num2) {
         int result = service.substract(num1, num2);
         return num1 + " - " + num2 + " = " + result;
+
     }
 
     @GetMapping("/multiply")
