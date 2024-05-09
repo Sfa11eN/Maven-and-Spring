@@ -8,7 +8,7 @@ import ru.skypro.calculatorwebapp.service.CalculatorService;
 
 @RestController
 @RequestMapping("/calculater")
-public class CalculatorController  {
+public class CalculatorController {
     private final CalculatorService service;
 
     public CalculatorController(CalculatorService service) {
